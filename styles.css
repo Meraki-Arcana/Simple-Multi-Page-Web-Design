@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+}
+
+html {
+    text-align: center;
+    font-family: "Bebas Neue", serif; 
+}
+
+nav {
+    position:fixed;
+    top:0;
+    width:100%;
+    padding:25px;
+    border-bottom:2px solid #e3e3e3;
+}
+
+nav a {
+    text-decoration: none;
+    color:#929292;
+    margin: 0 20px;
+}
+
+nav a:hover {
+color:black;
+transition:300ms ease-in-out;
+}
+
+nav a.active {
+    color:hsl(113, 43%, 73%);
+}
+
+a {
+    color:rgb(44, 44, 44);
+    font-size:1.40rem;
+    letter-spacing: 10px;
+}
+
+header {
+    padding-top:calc(50px + 1rem + 2px);
+}
+
+h1 {
+    margin-top:100px;
+    font-size: 3.75rem;
+    font-weight:bold;
+    line-height: 1.2em;
+}
+
+h1 + p {
+    width:900px;
+    margin: 35px auto;
+}
+
+#cta-button {
+    text-decoration: none;
+    background:linear-gradient(to top,hsl(113, 48%, 76%),hsl(113, 14%, 62%));
+    display:inline-block;
+    padding:1em 3em;
+    border-radius: 1000px;
+    transition:150ms ease;
+}
+
+#cta-button:hover {
+    scale:1.1;
+}
+
+.video-player {
+    margin-top:30px;
+    width:min(1100px, 100%);
+    aspect-ratio: 16/9;
+    border-radius:12px;
+    box-shadow: 0px -5px 40px #abd3868f;
+}
+
+.products-container {
+    margin-top: 30px;
+}
+
+.item {
+    background-color:gray;
+    width:300px;
+    height:300px;
+}
+p {
+    font-family: "Unna", serif;
+}
