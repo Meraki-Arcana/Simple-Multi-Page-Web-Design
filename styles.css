@@ -121,6 +121,22 @@ input {
   margin: 0 auto;
   margin-bottom: 15px;
   font: inherit;
+      border-radius:25px;
+}
+
+input[type="text"], input[type="password"] {
+    padding: 5px 20px;
+    width:200px;
+    height:50px;
+    border:none;
+    background-color: #ebedf5;
+    text-align: center;
+}
+
+input[type="submit"] {
+    width:200px;
+    padding:10px;
+    
 }
 
 p {
